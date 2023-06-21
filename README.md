@@ -16,3 +16,65 @@
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Conhecimento básico em HTML (Conheça em [get-started-html][get-started-html])
 * Conhecimento básico em CSS (Conheça em [get-started-css][get-started-css])
+
+## Progress-bar horizontal
+### html
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Progress-bar horizontal</title>
+    <link rel="stylesheet" href="horizontal.css">
+</head>
+<body>
+    <div class="progress-external">
+        <div class="progress-internal" style="width:70%">
+            <div class="progress-fill"></div>
+        </div>
+    </div>
+</body>
+</html>
+```
+* `<div class="progress-external">` - Consome classe `progress-external` que define `width` e `height` do elemento.
+* `<div class="progress-internal" style="width:70%">` - Consome classe `progress-internal` elemento interno que vai definir a quantidade preenchida, `style="width:70%"` no width deve-se colocar a quantidade desejada.
+* `<div class="progress-fill">` - Consome classe `progress-fill` elemento que efetua a animação de preenchimento.
+
+### CSS
+```
+.progress-external{
+    border-radius: 8px;
+    border: 1px solid #808080;
+    width: 200px;
+    height: 20px;
+    overflow:hidden;
+}
+
+.progress-internal{
+    max-width: 100%;
+    height: 100%;  
+}
+
+
+.progress-fill{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;  
+    background-color: #008000;
+    animation-name: progress-animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes progress-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+```
+
+
+
