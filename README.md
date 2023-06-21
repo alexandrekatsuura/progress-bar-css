@@ -12,8 +12,9 @@
 ## Descrição
 > Componente de progress-bar utilizando apenas `css` e `div`
 
-[![CODEPEN_HORIZONTAL](https://img.shields.io/badge/codepen_horizontal%20-%23323330.svg?&style=for-the-badge&logo=codepen&logoColor=white&color=006DEC)](https://codepen.io/Alexandre-Katsuura/details/KKrMyPY)
-[![CODEPEN_VERTICAL](https://img.shields.io/badge/codepen_vertical%20-%23323330.svg?&style=for-the-badge&logo=codepen&logoColor=white&color=006DEC)](https://codepen.io/Alexandre-Katsuura/details/XWyKvKa)
+## CodePen
+[![HORIZONTAL](https://img.shields.io/badge/horizontal%20-%23323330.svg?&style=for-the-badge&logo=codepen&logoColor=white&color=006DEC)](https://codepen.io/Alexandre-Katsuura/details/KKrMyPY)
+[![VERTICAL](https://img.shields.io/badge/vertical%20-%23323330.svg?&style=for-the-badge&logo=codepen&logoColor=white&color=006DEC)](https://codepen.io/Alexandre-Katsuura/details/XWyKvKa)
 
 ## Pré-requisitos
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
