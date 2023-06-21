@@ -7,13 +7,12 @@
   }
   
   .progress-internal{
-    max-width: 200px;
+    max-width: 100%;
     height: 100%;  
   }
   
   
   .progress-fill{
-    max-width: 200px;
     width: 100%;
     height: 100%;  
     background-color: #008000;
